@@ -4,7 +4,7 @@ k = int(input('Kamanada: '))
 direction = str()
 match y:
     case 's':
-        direction += 'Shimol '
+        direction += 'Shim12ol '
     case 'j':
         direction += 'Janub '
     case 'q':

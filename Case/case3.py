@@ -1,5 +1,4 @@
 oy = int(input('Oy tartib raqami? : '))
-fasl = ''
 match oy:
     case 1:
         fasl = 'Qish'
