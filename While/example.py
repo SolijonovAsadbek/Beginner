@@ -8,3 +8,4 @@ while count < 10:
     print(count)
 end_time = datetime.datetime.now()
 print('Oraliq vaqt: ', end_time - begin_time)
+
