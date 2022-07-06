@@ -6,3 +6,4 @@ while n >= k:
     n -= k
     count += 1
 print(f'{N} kesmada {k} kesmani {count} marta joylashtira olamiz.\nQoldiq: {n}')
+print(f'{k}*{count} + {n} = {N}')
