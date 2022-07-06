@@ -1,6 +1,6 @@
 import datetime
 
-money = 25
+money = int(input('Pul : '))
 times = 0
 formula = (money / 100) * 60
 import time
@@ -11,7 +11,7 @@ while times < formula:
     times += 1
     print('\rSiz aloqadasiz: ', times, ' sekund', end='', sep='')
 else:
-    print('\rQo`ng`roq yakunlandi.', end='\n')
+    print('\rQo`ng`roq yakunlandi.Mablag` tugadi.', end='\n')
 end = datetime.datetime.now()
 print('Pul miqdori: ', money, 'so`m.')
 print('Gaplashilgan vaqt: ', formula, 'sekund.')
